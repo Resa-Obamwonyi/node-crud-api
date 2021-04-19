@@ -1,5 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+require("dotenv").config()
+
 const connection = require("./connection");
 
 //Import people route
